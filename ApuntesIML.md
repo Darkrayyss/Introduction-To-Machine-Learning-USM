@@ -25,6 +25,18 @@ $$
 
  <hr>
 
+## Clase 14-03-2023
+
+- Recuerda siempre normalizar los datos y centrarlos en 0.
+
+### Feature selection
+
+- Los Z-score dependen de los datos, entonces los del mundo del Machine learning no le gusta ya que no se confia de los datos. La idea subyacente es eliminar una columna, luego recalcular los Z-score y seguir.
+
+- Z-score depende de los datos mientras que el siguiente (3) ocupa los datos de entrenamiento, es decir, la capacidad de generalizar.
+
+- PCA es principal component analysis, ortogonaliza el espacio en orden de los vectores que expliquen la mayor varianza, el tema de PCA es que no utiliza las clases, por lo tanto nunca debe ser usado para problemas de clasificación.
+
 ## Dudas para la clase 14-03-2023
 
 ### Sobre la tarea:
