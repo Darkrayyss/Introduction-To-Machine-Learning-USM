@@ -38,3 +38,11 @@ $$
 - En la tarea se pregunta por "cuando se venden más bicicletas" y para esto, se requiere hacer una comparación justa entre las carácteristicas de los días utilizando el promedio de ventas según feature, pero luego se vuelve a preguntar por "promedio de ventas según feature" lo cuál nos hace pensar que estamos entendiendo mal las primeras preguntas.
 
 - Preguntar sobre si hacer agrupaciones de clases, por ejemplo si rented bike = 666, entonces entra en la clase  $k_7 = [650,699]$ y se agrega una columna con una variable tarjet que corresponde a las k_i. (me explayo más en unas notas en el github de la tarea)
+
+## Respuestas cuestionario I
+
+1. Explique qué se entiende por sobreajuste (overfitting), porqué se produce y cómo puede prevenirse.
+
+- Respuesta:
+
+2. 
