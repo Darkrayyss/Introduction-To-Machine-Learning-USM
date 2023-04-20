@@ -37,7 +37,7 @@ $$
 
 - PCA es principal component analysis, ortogonaliza el espacio en orden de los vectores que expliquen la mayor varianza, el tema de PCA es que no utiliza las clases, por lo tanto nunca debe ser usado para problemas de clasificación.
 
-## Dudas para la clase 14-03-2023
+## Dudas para la clase 14-04-2023
 
 ### Sobre la tarea:
 
@@ -51,10 +51,9 @@ $$
 
 - Preguntar sobre si hacer agrupaciones de clases, por ejemplo si rented bike = 666, entonces entra en la clase  $k_7 = [650,699]$ y se agrega una columna con una variable tarjet que corresponde a las k_i. (me explayo más en unas notas en el github de la tarea)
 
-## Respuestas cuestionario I
+## Dudas para la clase 21-04-2023
 
-1. Explique qué se entiende por sobreajuste (overfitting), porqué se produce y cómo puede prevenirse.
-
-- Respuesta:
-
-2. 
+- En las funciones de perdida, se nos dice que la función no penaliza los valores bien predichos, pero tanto como la exponential loss y la logistic loss si lo hacen ¿Esto no es una contradicción?
+- En problemas de regresión ocupamos perdida cuadratica mientras que en clasificación binaria nos apoyamos de la margin $y(f(\textbf{x}))$ ¿Como se abordan los problemas con $k$ clases?
+In linear regression, the number of features $I$ is a hyperparameter?
+- Batch gradient descent algorithm. In general, gradient descent can reach a local minimum, what happend for $J$ the square loss function? In the notes say "$J$ is convex function. Thus, the optimization problem has only one global optimum."
