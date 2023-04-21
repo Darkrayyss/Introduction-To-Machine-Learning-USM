@@ -57,3 +57,6 @@ $$
 - En problemas de regresión ocupamos perdida cuadratica mientras que en clasificación binaria nos apoyamos de la margin $y(f(\textbf{x}))$ ¿Como se abordan los problemas con $k$ clases?
 In linear regression, the number of features $I$ is a hyperparameter?
 - Batch gradient descent algorithm. In general, gradient descent can reach a local minimum, what happend for $J$ the square loss function? In the notes say "$J$ is convex function. Thus, the optimization problem has only one global optimum."
+- Why in K-fold cross validation the set must to be disjoint?
+- Empirical Risk Minimization is another way to choose a model?
+- How to extend the logistic regression to multi classes?
