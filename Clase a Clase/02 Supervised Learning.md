@@ -180,7 +180,7 @@ $$\text{Excess Risk}(\hat f_n)=R(\hat f_n)-R(f^*)=\underbrace{(R(\hat f_n)-R(f_\
 > Depends of the method to minimize the function in practice, if we can find the exact solution, we find $\hat f_n$.
 - Thus we define the Optimization Error: $R(\hat f_n)-R(\tilde f_n)$
 - So, decomposition of the Excess Risk is:
-$$\text{Excess Risk}(\tilde f_n)=\underbrace{(R(\tilde f_n)-R(\hat f_n))}_{\text{Optimization eror}}+\underbrace{(R(\hat f_n)-R(f_\mathcal{H}))}_{\text{estimation error}}+\underbrace{(R(f_\mathcal{H})-R(f^*))}_{\text{approximation error}}$$
+$$\text{Excess Risk}(\tilde f_n)=\underbrace{(R(\tilde f_n)-R(\hat f_n))}_{\text{Optimization error}}+\underbrace{(R(\hat f_n)-R(f_\mathcal{H}))}_{\text{Estimation error}}+\underbrace{(R(f_\mathcal{H})-R(f^*))}_{\text{Approximation error}}$$
 
 ## VC dimension
 - zzz...
